@@ -113,7 +113,7 @@ export default function Hero(): React.ReactElement {
                           <span className="text-xs bg-muted/50 px-2 py-0.5 rounded-full text-muted-foreground">4</span>
                         </div>
                         <div className="text-muted-foreground">
-                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path dName="M12 12V12.01M8 12V12.01M16 12V12.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 12V12.01M8 12V12.01M16 12V12.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></svg>
                         </div>
                       </div>
                       <div className="p-2 flex-1 space-y-2 overflow-auto">
