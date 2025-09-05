@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-export default function Footer(): JSX.Element {
+export default function Footer(): React.ReactElement {
   return (
     <footer className="w-full py-16 px-6 md:px-12 border-t border-border bg-card">
       <div className="max-w-7xl mx-auto">

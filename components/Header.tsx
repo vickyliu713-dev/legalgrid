@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 
-export function Header(): JSX.Element {
+export function Header(): React.ReactElement {
   return (
     <div className="sticky top-0 z-50">
       <div className="pt-8 px-4">
