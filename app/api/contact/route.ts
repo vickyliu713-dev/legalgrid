@@ -20,9 +20,11 @@ export async function POST(request: Request) {
           Authorization: `Bearer ${resendApiKey}`,
         },
         body: JSON.stringify({
-          from: "LegalGrid <noreply@legalgrid.app>",
+          // Use Resend's verified onboarding sender for reliability unless a custom domain is configured
+          from: "LegalGrid <onboarding@resend.dev>",
           to: [toEmail],
           subject: "New LegalGrid Contact Form Submission",
+          reply_to: email,
           html: `
             <h2>New Contact Submission</h2>
             <p><strong>Name:</strong> ${name}</p>
@@ -37,6 +39,7 @@ export async function POST(request: Request) {
       if (!res.ok) {
         const text = await res.text();
         console.error("Resend error:", text);
+        return NextResponse.json({ error: "Email send failed", details: text }, { status: 500 });
       }
     } else {
       console.warn("RESEND_API_KEY not set; skipping email send.");
