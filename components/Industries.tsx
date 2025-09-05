@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Industries(): JSX.Element {
+export default function Industries(): React.ReactElement {
   return (
     <section className="w-full py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
