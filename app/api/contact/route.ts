@@ -41,11 +41,12 @@ export async function POST(request: Request) {
         console.error("Resend error:", text);
         return NextResponse.json({ error: "Email send failed", details: text }, { status: 500 });
       }
+      const data = await res.json().catch(() => ({}));
+      return NextResponse.json({ ok: true, id: (data as any).id });
     } else {
       console.warn("RESEND_API_KEY not set; skipping email send.");
+      return NextResponse.json({ ok: true, skipped: true });
     }
-
-    return NextResponse.json({ ok: true });
   } catch (error) {
     console.error(error);
     return NextResponse.json({ error: "Server error" }, { status: 500 });
