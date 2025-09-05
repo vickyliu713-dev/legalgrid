@@ -3,13 +3,42 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #0d2840; /* Brand primary */
+  --secondary: #8bcc19; /* Brand secondary */
+  --grey: #737373; /* Brand grey for text */
+  --info: #8bcc19; /* using secondary tint for subtle backgrounds */
+
+  --accent: var(--secondary);
+  --accent-foreground: var(--primary);
+  --muted: #f5f5f5;
+  --muted-foreground: var(--grey);
+  --border: #e5e7eb;
+
+  /* Toggle helpers */
+  --cosmic-light: var(--primary);
+  --cosmic-accent: var(--primary);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-info: var(--info);
+  --color-card: var(--background);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --font-sans: var(--font-inter);
   --font-mono: var(--font-geist-mono);
+}
+
+/* Inputs focus helpers */
+:root {
+  --ring: var(--secondary);
+  --input: #e5e7eb;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +51,51 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Decorative utilities used by hero */
+.cosmic-grid {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.cosmic-glow::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  pointer-events: none;
+  background: radial-gradient(600px 200px at 50% -50%, rgba(139, 204, 25, 0.25), transparent),
+    radial-gradient(600px 200px at 110% 50%, rgba(13, 40, 64, 0.15), transparent);
+  filter: blur(24px);
+}
+
+/* Animations used in trust section */
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 600ms ease-out both;
+}
+
+@keyframes scaleIn {
+  0% { opacity: 0; transform: scale(0.96); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.animate-scale-in {
+  animation: scaleIn 600ms ease-out both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 700ms ease-out both;
 }

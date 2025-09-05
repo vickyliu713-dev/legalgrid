@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="784" height="176" viewBox="0 0 784 176" role="img" aria-labelledby="title desc">
+  <title id="title">LegalGrid logo</title>
+  <desc id="desc">Minimalist 3 by 3 grid icon with navy squares and a teal square top right, followed by the LegalGrid wordmark.</desc>
+  <!-- Grid -->
+  <rect x="8" y="8" width="40" height="40" rx="6" ry="6" fill="#0A2540"/><rect x="60" y="8" width="40" height="40" rx="6" ry="6" fill="#0A2540"/><rect x="112" y="8" width="40" height="40" rx="6" ry="6" fill="#14B8A6"/><rect x="8" y="60" width="40" height="40" rx="6" ry="6" fill="#0A2540"/><rect x="60" y="60" width="40" height="40" rx="6" ry="6" fill="#0A2540"/><rect x="112" y="60" width="40" height="40" rx="6" ry="6" fill="#0A2540"/><rect x="8" y="112" width="40" height="40" rx="6" ry="6" fill="#0A2540"/><rect x="60" y="112" width="40" height="40" rx="6" ry="6" fill="#0A2540"/><rect x="112" y="112" width="40" height="40" rx="6" ry="6" fill="#0A2540"/>
+  <!-- Wordmark -->
+  <text x="184" y="96.0" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="700" fill="#0A2540">LegalGrid</text>
+</svg>
