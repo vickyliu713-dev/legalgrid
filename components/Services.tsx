@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Services(): JSX.Element {
+export default function Services(): React.ReactElement {
   return (
     <section id="features" className="w-full py-12 md:py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto space-y-12">

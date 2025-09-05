@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Testimonials(): JSX.Element {
+export default function Testimonials(): React.ReactElement {
   return (
     <section
       className="w-full py-20 px-6 md:px-12 relative overflow-hidden min-h-[400px]"
