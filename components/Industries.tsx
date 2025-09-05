@@ -36,28 +36,28 @@ export default function Industries(): React.ReactElement {
               <div className="ml-12">
                 <div className="text-foreground font-semibold text-xl mb-8 font-sans">Industries We Work With</div>
                 <div className="grid grid-cols-2 gap-x-8 gap-y-3">
-                  <div className="opacity-0 animate-slide-in-left py-1" style={{ animationDelay: "0s", animationFillMode: "forwards" as const }}>
+                  <div className="animate-slide-in-left py-1" style={{ animationDelay: "0s", animationFillMode: "forwards" as const }}>
                     <span className="text-foreground/90 font-medium text-lg tracking-wide">Technology &amp; SaaS</span>
                   </div>
-                  <div className="opacity-0 animate-slide-in-left py-1" style={{ animationDelay: "100ms", animationFillMode: "forwards" as const }}>
+                  <div className="animate-slide-in-left py-1" style={{ animationDelay: "100ms", animationFillMode: "forwards" as const }}>
                     <span className="text-foreground/90 font-medium text-lg tracking-wide">E-Commerce &amp; Retail</span>
                   </div>
-                  <div className="opacity-0 animate-slide-in-left py-1" style={{ animationDelay: "200ms", animationFillMode: "forwards" as const }}>
+                  <div className="animate-slide-in-left py-1" style={{ animationDelay: "200ms", animationFillMode: "forwards" as const }}>
                     <span className="text-foreground/90 font-medium text-lg tracking-wide">Agencies &amp; Creatives</span>
                   </div>
-                  <div className="opacity-0 animate-slide-in-left py-1" style={{ animationDelay: "300ms", animationFillMode: "forwards" as const }}>
+                  <div className="animate-slide-in-left py-1" style={{ animationDelay: "300ms", animationFillMode: "forwards" as const }}>
                     <span className="text-foreground/90 font-medium text-lg tracking-wide">Consulting &amp; Professional Services</span>
                   </div>
-                  <div className="opacity-0 animate-slide-in-left py-1" style={{ animationDelay: "400ms", animationFillMode: "forwards" as const }}>
+                  <div className="animate-slide-in-left py-1" style={{ animationDelay: "400ms", animationFillMode: "forwards" as const }}>
                     <span className="text-foreground/90 font-medium text-lg tracking-wide">Hospitality &amp; Leisure</span>
                   </div>
-                  <div className="opacity-0 animate-slide-in-left py-1" style={{ animationDelay: "500ms", animationFillMode: "forwards" as const }}>
+                  <div className="animate-slide-in-left py-1" style={{ animationDelay: "500ms", animationFillMode: "forwards" as const }}>
                     <span className="text-foreground/90 font-medium text-lg tracking-wide">Finance &amp; Fintech</span>
                   </div>
-                  <div className="opacity-0 animate-slide-in-left py-1" style={{ animationDelay: "600ms", animationFillMode: "forwards" as const }}>
+                  <div className="animate-slide-in-left py-1" style={{ animationDelay: "600ms", animationFillMode: "forwards" as const }}>
                     <span className="text-foreground/90 font-medium text-lg tracking-wide">Healthcare &amp; Education</span>
                   </div>
-                  <div className="opacity-0 animate-slide-in-left py-1" style={{ animationDelay: "700ms", animationFillMode: "forwards" as const }}>
+                  <div className="animate-slide-in-left py-1" style={{ animationDelay: "700ms", animationFillMode: "forwards" as const }}>
                     <span className="text-foreground/90 font-medium text-lg tracking-wide">Property &amp; Construction</span>
                   </div>
                 </div>
