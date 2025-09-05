@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Hero(): JSX.Element {
+export default function Hero(): React.ReactElement {
   return (
     <section className="relative w-full py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-hidden bg-background">
       <div className="absolute inset-0 cosmic-grid opacity-30"></div>
