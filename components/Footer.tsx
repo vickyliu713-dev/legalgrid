@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Footer(): JSX.Element {
   return (
@@ -7,7 +8,7 @@ export default function Footer(): JSX.Element {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-10">
           <div className="md:col-span-2 space-y-6">
             <div className="flex items-center gap-2">
-              <img src="/logo.svg" alt="LegalGrid" className="h-10 w-auto" />
+              <Image src="/logo.svg" alt="LegalGrid" width={140} height={40} className="h-10 w-auto" />
             </div>
             <p className="text-muted-foreground max-w-xs">
               We provide specialist legal support exclusively for UK startups and SMEs,

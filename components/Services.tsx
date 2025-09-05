@@ -9,7 +9,7 @@ export default function Services(): JSX.Element {
             Specialist Legal Support for SMEs &amp; Startups
           </h2>
           <p className="text-muted-foreground text-lg">
-            We focus exclusively on startups and small businesses. Whether you're raising funds, hiring staff, or protecting your contracts, we provide the legal foundations that keep your business safe.
+            We focus exclusively on startups and small businesses. Whether you&apos;re raising funds, hiring staff, or protecting your contracts, we provide the legal foundations that keep your business safe.
           </p>
         </div>
 

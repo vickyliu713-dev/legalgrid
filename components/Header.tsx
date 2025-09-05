@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 export function Header(): JSX.Element {
   return (
@@ -9,7 +10,7 @@ export function Header(): JSX.Element {
         <header className="w-full max-w-7xl mx-auto py-3 px-6 md:px-8 flex items-center justify-between">
           <div className="p-3">
             <div className="flex items-center gap-2">
-              <img src="/logo.svg" alt="LegalGrid" className="h-10 w-auto" />
+              <Image src="/logo.svg" alt="LegalGrid" width={140} height={40} className="h-10 w-auto" />
             </div>
           </div>
 

@@ -90,7 +90,7 @@ export default function Team(): JSX.Element {
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-dollar-sign text-primary"><line x1="12" x2="12" y1="2" y2="22"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
                   </div>
                   <h3 className="text-sm font-semibold text-foreground mb-3 leading-tight group-hover:text-primary transition-colors duration-300">Clear, Upfront Pricing</h3>
-                  <p className="text-xs text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300">fixed fees agreed in advance, so you always know what you'll pay</p>
+                  <p className="text-xs text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300">fixed fees agreed in advance, so you always know what you&apos;ll pay</p>
                 </div>
               </div>
               <div className="w-full h-6 bg-gradient-to-t from-card to-card/90 rounded-b-lg relative shadow-lg">

@@ -41,7 +41,7 @@ export default function Testimonials(): JSX.Element {
                     ))}
                   </div>
                   <p className="text-lg mb-4 text-gray-800 italic text-center leading-relaxed">
-                    "LegalGrid prepared our shareholder agreement ahead of an investor meeting. Clear, precise, and delivered in just 72 hours."
+                    &quot;LegalGrid prepared our shareholder agreement ahead of an investor meeting. Clear, precise, and delivered in just 72 hours.&quot;
                   </p>
                   <div className="flex items-center justify-center gap-4 pb-8">
                     <img
@@ -66,7 +66,7 @@ export default function Testimonials(): JSX.Element {
                     ))}
                   </div>
                   <p className="text-lg mb-4 text-gray-800 italic text-center leading-relaxed">
-                    "As a small marketing agency, we needed client contracts that protected us. LegalGrid's agreements were clear, fair, and professional."
+                    &quot;As a small marketing agency, we needed client contracts that protected us. LegalGrid&apos;s agreements were clear, fair, and professional.&quot;
                   </p>
                   <div className="flex items-center justify-center gap-4 pb-8">
                     <img
@@ -91,7 +91,7 @@ export default function Testimonials(): JSX.Element {
                     ))}
                   </div>
                   <p className="text-lg mb-4 text-gray-800 italic text-center leading-relaxed">
-                    "We launched our e-commerce business with full GDPR compliance thanks to LegalGrid. Everything was covered — terms, policies, and data protection agreements."
+                    &quot;We launched our e-commerce business with full GDPR compliance thanks to LegalGrid. Everything was covered — terms, policies, and data protection agreements.&quot;
                   </p>
                   <div className="flex items-center justify-center gap-4 pb-8">
                     <img
