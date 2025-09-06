@@ -41,8 +41,8 @@ export async function POST(request: Request) {
         console.error("Resend error:", text);
         return NextResponse.json({ error: "Email send failed", details: text }, { status: 500 });
       }
-      const data = await res.json().catch(() => ({}));
-      return NextResponse.json({ ok: true, id: (data as any).id });
+      const data = (await res.json().catch(() => ({}))) as { id?: string };
+      return NextResponse.json({ ok: true, id: data?.id });
     } else {
       console.warn("RESEND_API_KEY not set; skipping email send.");
       return NextResponse.json({ ok: true, skipped: true });
