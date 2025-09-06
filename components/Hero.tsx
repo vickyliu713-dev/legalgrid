@@ -3,26 +3,26 @@ import React from "react";
 export default function Hero(): React.ReactElement {
   return (
     <section className="relative w-full py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-hidden bg-background">
-      <div className="absolute inset-0 cosmic-grid opacity-30 animate-fade-in" style={{ animationDelay: "0ms" }}></div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full animate-scale-in" style={{ animationDelay: "100ms" }}>
+      <div className="absolute inset-0 cosmic-grid opacity-30"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full">
         <div className="w-full h-full opacity-20 bg-gradient-to-r from-primary via-info to-secondary blur-[150px]"></div>
       </div>
 
-      <div className="relative z-10 max-w-4xl text-center space-y-6">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tighter text-balance text-foreground animate-fade-in" style={{ animationDelay: "150ms" }}>
+      <div className="relative z-10 max-w-4xl text-center space-y-6 transition-all duration-700 transform opacity-100 translate-y-0">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tighter text-balance text-foreground">
           Legal Services for <span className="text-foreground">UK Startups &amp; Small Businesses</span>
         </h1>
-        <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto text-balance animate-fade-in" style={{ animationDelay: "250ms" }}>
+        <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto text-balance">
           From incorporation to investment, employment, and compliance — LegalGrid delivers the essential legal documents every UK company needs to grow securely.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 items-center animate-scale-in" style={{ animationDelay: "350ms" }}>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 items-center">
           <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-primary hover:border hover:border-cosmic-accent py-2 bg-secondary text-secondary-foreground hover:bg-secondary/90 text-base h-12 px-8 transition-all duration-200 min-h-[48px]">
             Contact Us Now
           </button>
         </div>
       </div>
 
-      <div className="w-full max-w-7xl mt-12 z-10 animate-scale-in" style={{ animationDelay: "450ms" }}>
+      <div className="w-full max-w-7xl mt-12 z-10 transition-all duration-1000 delay-500 opacity-100 translate-y-0">
         <div className="cosmic-glow relative rounded-xl overflow-hidden border border-border backdrop-blur-sm bg-card shadow-lg">
           <div className="bg-card backdrop-blur-md w-full">
             <div className="flex items-center justify-between p-4 border-b border-border">
