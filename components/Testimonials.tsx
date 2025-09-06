@@ -26,9 +26,6 @@ export default function Testimonials(): React.ReactElement {
         </div>
 
         <div className="relative max-w-6xl mx-auto">
-          <button className="absolute left-4 top-1/2 -translate-y-1/2 z-20 p-3 rounded-full bg-background border border-border hover:bg-muted/50 transition-colors shadow-lg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-left text-foreground"><path d="m15 18-6-6 6-6"></path></svg>
-          </button>
 
           <div className="relative px-20 py-16">
             <div className="flex justify-center items-center relative">
@@ -94,9 +91,7 @@ export default function Testimonials(): React.ReactElement {
             </div>
           </div>
 
-          <button className="absolute right-4 top-1/2 -translate-y-1/2 z-20 p-3 rounded-full bg-background border border-border hover:bg-muted/50 transition-colors shadow-lg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-right text-foreground"><path d="m9 18 6-6-6-6"></path></svg>
-          </button>
+          {/* Arrows removed per request */}
         </div>
 
         {/* Stats */}
