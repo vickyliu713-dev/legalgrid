@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Header(): React.ReactElement {
   return (
@@ -10,7 +11,9 @@ export function Header(): React.ReactElement {
         <header className="w-full max-w-7xl mx-auto py-3 px-6 md:px-8 flex items-center justify-between">
           <div className="p-3">
             <div className="flex items-center gap-2">
-              <Image src="/logo.svg" alt="LegalGrid" width={140} height={40} className="h-10 w-auto" />
+              <Link href="/" aria-label="Go to homepage">
+                <Image src="/logo.svg" alt="LegalGrid" width={140} height={40} className="h-10 w-auto" />
+              </Link>
             </div>
           </div>
 

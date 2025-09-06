@@ -44,11 +44,6 @@ export default function Testimonials(): React.ReactElement {
                     &quot;LegalGrid prepared our shareholder agreement ahead of an investor meeting. Clear, precise, and delivered in just 72 hours.&quot;
                   </p>
                   <div className="flex items-center justify-center gap-4 pb-8">
-                    <img
-                      src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
-                      alt="James"
-                      className="h-16 w-16 rounded-full object-cover"
-                    />
                     <div className="text-center">
                       <h4 className="font-semibold text-gray-900 text-lg">James</h4>
                       <p className="text-gray-600">SaaS Founder</p>
@@ -69,11 +64,6 @@ export default function Testimonials(): React.ReactElement {
                     &quot;As a small marketing agency, we needed client contracts that protected us. LegalGrid&apos;s agreements were clear, fair, and professional.&quot;
                   </p>
                   <div className="flex items-center justify-center gap-4 pb-8">
-                    <img
-                      src="https://images.unsplash.com/photo-1494790108755-2616b39c1281?w=150&h=150&fit=crop&crop=face"
-                      alt="Sarah"
-                      className="h-16 w-16 rounded-full object-cover"
-                    />
                     <div className="text-center">
                       <h4 className="font-semibold text-gray-900 text-lg">Sarah</h4>
                       <p className="text-gray-600">Agency Director</p>
@@ -94,11 +84,6 @@ export default function Testimonials(): React.ReactElement {
                     &quot;We launched our e-commerce business with full GDPR compliance thanks to LegalGrid. Everything was covered — terms, policies, and data protection agreements.&quot;
                   </p>
                   <div className="flex items-center justify-center gap-4 pb-8">
-                    <img
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
-                      alt="Daniel"
-                      className="h-16 w-16 rounded-full object-cover"
-                    />
                     <div className="text-center">
                       <h4 className="font-semibold text-gray-900 text-lg">Daniel</h4>
                       <p className="text-gray-600">Retail Startup</p>
