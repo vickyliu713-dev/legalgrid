@@ -91,5 +91,5 @@ body {
 @media (prefers-reduced-motion: no-preference) {
   .animate-slide-in-left { animation: slideInLeft 600ms ease-out forwards; }
   .animate-scale-in { animation: scaleIn 600ms ease-out forwards; }
-  .animate-fade-in { animation: fadeIn 700ms ease-out forwards; }
+  .animate-fade-in { animation: fadeIn 500ms ease-out forwards; }
 }
