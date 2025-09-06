@@ -22,7 +22,7 @@ export default function Hero(): React.ReactElement {
         </div>
       </div>
 
-      <div className="w-full max-w-7xl mt-12 z-10 animate-fade-in" style={{ animationDelay: "500ms", animationDuration: "500ms" }}>
+      <div className="w-full max-w-7xl mt-12 z-10 animate-fade-in" style={{ animationDelay: "750ms", animationDuration: "750ms" }}>
         <div className="cosmic-glow relative rounded-xl overflow-hidden border border-border backdrop-blur-sm bg-card shadow-lg">
           <div className="bg-card backdrop-blur-md w-full">
             <div className="flex items-center justify-between p-4 border-b border-border">
