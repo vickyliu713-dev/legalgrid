@@ -8,7 +8,7 @@ export default function Hero(): React.ReactElement {
         <div className="w-full h-full opacity-20 bg-gradient-to-r from-primary via-info to-secondary blur-[150px]"></div>
       </div>
 
-      <div className="relative z-10 max-w-4xl text-center space-y-6 animate-fade-in" style={{ animationDuration: "500ms" }}>
+      <div className="relative z-10 max-w-4xl text-center space-y-6 start-hidden animate-fade-in" style={{ animationDelay: "750ms" }}>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tighter text-balance text-foreground">
           Legal Services for <span className="text-foreground">UK Startups &amp; Small Businesses</span>
         </h1>
@@ -22,7 +22,7 @@ export default function Hero(): React.ReactElement {
         </div>
       </div>
 
-      <div className="w-full max-w-7xl mt-12 z-10 animate-fade-in" style={{ animationDelay: "750ms", animationDuration: "750ms" }}>
+      <div className="w-full max-w-7xl mt-12 z-10 start-hidden animate-fade-in" style={{ animationDelay: "1500ms" }}>
         <div className="cosmic-glow relative rounded-xl overflow-hidden border border-border backdrop-blur-sm bg-card shadow-lg">
           <div className="bg-card backdrop-blur-md w-full">
             <div className="flex items-center justify-between p-4 border-b border-border">
