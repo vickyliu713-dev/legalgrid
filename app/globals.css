@@ -92,5 +92,4 @@ body {
   .animate-slide-in-left { animation: slideInLeft 600ms ease-out forwards; }
   .animate-scale-in { animation: scaleIn 600ms ease-out forwards; }
   .animate-fade-in { animation: fadeIn 750ms ease-out forwards; }
-  .start-hidden { opacity: 0; }
 }
