@@ -56,6 +56,11 @@ body {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+/* Global heading measure */
+h2 {
+  max-width: 50ch;
+}
+
 /* Decorative utilities used by hero */
 .cosmic-grid {
   background-image: radial-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 1px);
