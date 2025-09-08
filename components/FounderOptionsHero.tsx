@@ -28,40 +28,7 @@ export default function FounderOptionsHero(): React.ReactElement {
             </div>
           </div>
 
-          <div className="transition-all duration-1000 delay-300 opacity-100 translate-x-0">
-            <div className="bg-card border border-border rounded-2xl p-8 shadow-sm">
-              <h3 className="text-xl font-medium mb-6 text-foreground">Equity Options Overview</h3>
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary font-medium text-xl" style={{ fontFamily: '"Comic Sans MS", cursive' }}>1</span>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-foreground mb-1">EMI Option Scheme</h4>
-                    <p className="text-sm text-muted-foreground">Tax-efficient option plan tailored to your business</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
-                    <span className="text-secondary font-medium text-xl" style={{ fontFamily: '"Comic Sans MS", cursive' }}>2</span>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-foreground mb-1">Founder Vesting</h4>
-                    <p className="text-sm text-muted-foreground">Protect the company if a founder leaves early</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
-                    <span className="text-info font-medium text-xl" style={{ fontFamily: '"Comic Sans MS", cursive' }}>3</span>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-foreground mb-1">Option Letters</h4>
-                    <p className="text-sm text-muted-foreground">Clear agreements for staff, advisors, and consultants</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div></div>
         </div>
       </div>
     </section>

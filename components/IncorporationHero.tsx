@@ -35,7 +35,7 @@ export default function IncorporationHero(): React.ReactElement {
               <div className="space-y-6">
                 <div className="flex gap-4">
                   <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary font-medium text-xl" style={{ fontFamily: '"Comic Sans MS", cursive' }}>1</span>
+                    <span className="text-secondary font-medium text-xl" style={{ fontFamily: '"Comic Sans MS", cursive' }}>1</span>
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground mb-1">Company Formation</h4>
@@ -53,7 +53,7 @@ export default function IncorporationHero(): React.ReactElement {
                 </div>
                 <div className="flex gap-4">
                   <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
-                    <span className="text-info font-medium text-xl" style={{ fontFamily: '"Comic Sans MS", cursive' }}>3</span>
+                    <span className="text-secondary font-medium text-xl" style={{ fontFamily: '"Comic Sans MS", cursive' }}>3</span>
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground mb-1">Governance Framework</h4>
