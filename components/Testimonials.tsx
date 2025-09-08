@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 
-type Testimonial = { quote: string; name: string; role: string };
+export type Testimonial = { quote: string; name: string; role: string };
 
-const TESTIMONIALS: Testimonial[] = [
+const DEFAULT_TESTIMONIALS: Testimonial[] = [
   {
     quote:
       "LegalGrid drafted our shareholder agreement in time for an investor pitch. It gave everyone confidence and avoided weeks of negotiation.",
@@ -25,15 +25,16 @@ const TESTIMONIALS: Testimonial[] = [
   },
 ];
 
-export default function Testimonials(): React.ReactElement {
+export default function Testimonials({ testimonials }: { testimonials?: Testimonial[] }): React.ReactElement {
+  const data = testimonials ?? DEFAULT_TESTIMONIALS;
   const [index, setIndex] = useState<number>(0);
-  const count = TESTIMONIALS.length;
+  const count = data.length;
   const prevIndex = (index - 1 + count) % count;
   const nextIndex = (index + 1) % count;
 
-  const center = TESTIMONIALS[index];
-  const left = TESTIMONIALS[prevIndex];
-  const right = TESTIMONIALS[nextIndex];
+  const center = data[index];
+  const left = data[prevIndex];
+  const right = data[nextIndex];
   return (
     <section
       className="w-full py-20 px-6 md:px-12 relative overflow-hidden min-h-[400px]"
