@@ -53,12 +53,6 @@ export function Header(): React.ReactElement {
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
-            <Link href="/incorporation" className="text-sm font-medium text-primary hover:underline">
-              Incorporation
-            </Link>
-            <Link href="/founder-options" className="text-sm font-medium text-primary hover:underline">
-              Founder Options
-            </Link>
             <div className="flex items-center gap-2 rounded-full px-3 py-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-moon text-[#737373]"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>
               <button type="button" role="switch" aria-checked="true" data-state="checked" value="on" className="peer inline-flex h-5 w-9 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50 data-[state=unchecked]:bg-[#0d2840]/20 data-[state=checked]:bg-[#0d2840]">
