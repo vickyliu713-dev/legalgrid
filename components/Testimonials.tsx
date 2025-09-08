@@ -1,6 +1,9 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 
 export default function Testimonials(): React.ReactElement {
+  const [active, setActive] = useState<"center" | "left" | "right">("center");
   return (
     <section
       className="w-full py-20 px-6 md:px-12 relative overflow-hidden min-h-[400px]"
@@ -30,7 +33,7 @@ export default function Testimonials(): React.ReactElement {
           <div className="relative px-20 py-16">
             <div className="flex justify-center items-center relative">
               {/* Center card */}
-              <div className="transition-all duration-700 relative z-30 scale-100 opacity-100">
+              <div className={`transition-all duration-500 relative z-30 ${active === "center" ? "scale-100 opacity-100" : "scale-90 opacity-60"}`}>
                 <div className="max-w-lg px-8 py-0 bg-white shadow-2xl transition-all duration-700 min-h-[320px]">
                   <div className="mb-4 text-center pt-8">
                     {Array.from({ length: 5 }).map((_, i) => (
@@ -50,7 +53,8 @@ export default function Testimonials(): React.ReactElement {
               </div>
 
               {/* Right card */}
-              <div className="transition-all duration-700 absolute right-0 z-20 translate-x-1/2 scale-90 opacity-60">
+              <div className={`transition-all duration-500 absolute right-0 z-20 ${active === "right" ? "translate-x-0 scale-100 opacity-100 z-30" : "translate-x-1/2 scale-90 opacity-60"}`}
+                   onClick={() => setActive("right")} role="button" aria-label="Show testimonial">
                 <div className="max-w-lg px-8 py-0 bg-white shadow-2xl transition-all duration-700 min-h-[320px]">
                   <div className="mb-4 text-center pt-8">
                     {Array.from({ length: 5 }).map((_, i) => (
@@ -70,7 +74,8 @@ export default function Testimonials(): React.ReactElement {
               </div>
 
               {/* Left card */}
-              <div className="transition-all duration-700 absolute left-0 z-20 -translate-x-1/2 scale-90 opacity-60">
+              <div className={`transition-all duration-500 absolute left-0 z-20 ${active === "left" ? "translate-x-0 scale-100 opacity-100 z-30" : "-translate-x-1/2 scale-90 opacity-60"}`}
+                   onClick={() => setActive("left")} role="button" aria-label="Show testimonial">
                 <div className="max-w-lg px-8 py-0 bg-white shadow-2xl transition-all duration-700 min-h-[320px]">
                   <div className="mb-4 text-center pt-8">
                     {Array.from({ length: 5 }).map((_, i) => (

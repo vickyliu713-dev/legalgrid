@@ -22,7 +22,7 @@ export default function Team(): React.ReactElement {
 
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 lg:gap-8 max-w-7xl mx-auto">
           {/* Card 1 */}
-          <div className="group relative transition-all duration-500 ease-out hover:scale-105 animate-scale-in" style={{ animationDelay: "0ms" }}>
+          <div className="group relative transition-all duration-500 ease-out hover:scale-105">
             <div className="relative h-80 w-full flex flex-col">
               <div className="w-full h-8 bg-gradient-to-b from-card to-card/90 rounded-t-lg relative shadow-md">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-t-lg"></div>
@@ -49,7 +49,7 @@ export default function Team(): React.ReactElement {
           </div>
 
           {/* Card 2 */}
-          <div className="group relative transition-all duration-500 ease-out hover:scale-105 animate-scale-in" style={{ animationDelay: "200ms" }}>
+          <div className="group relative transition-all duration-500 ease-out hover:scale-105">
             <div className="relative h-80 w-full flex flex-col">
               <div className="w-full h-8 bg-gradient-to-b from-card to-card/90 rounded-t-lg relative shadow-md">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-t-lg"></div>
@@ -76,7 +76,7 @@ export default function Team(): React.ReactElement {
           </div>
 
           {/* Card 3 */}
-          <div className="group relative transition-all duration-500 ease-out hover:scale-105 animate-scale-in" style={{ animationDelay: "400ms" }}>
+          <div className="group relative transition-all duration-500 ease-out hover:scale-105">
             <div className="relative h-80 w-full flex flex-col">
               <div className="w-full h-8 bg-gradient-to-b from-card to-card/90 rounded-t-lg relative shadow-md">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-t-lg"></div>
@@ -103,7 +103,7 @@ export default function Team(): React.ReactElement {
           </div>
 
           {/* Card 4 */}
-          <div className="group relative transition-all duration-500 ease-out hover:scale-105 animate-scale-in" style={{ animationDelay: "600ms" }}>
+          <div className="group relative transition-all duration-500 ease-out hover:scale-105">
             <div className="relative h-80 w-full flex flex-col">
               <div className="w-full h-8 bg-gradient-to-b from-card to-card/90 rounded-t-lg relative shadow-md">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-t-lg"></div>
@@ -130,7 +130,7 @@ export default function Team(): React.ReactElement {
           </div>
 
           {/* Card 5 */}
-          <div className="group relative transition-all duration-500 ease-out hover:scale-105 animate-scale-in" style={{ animationDelay: "800ms" }}>
+          <div className="group relative transition-all duration-500 ease-out hover:scale-105">
             <div className="relative h-80 w-full flex flex-col">
               <div className="w-full h-8 bg-gradient-to-b from-card to-card/90 rounded-t-lg relative shadow-md">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-t-lg"></div>
