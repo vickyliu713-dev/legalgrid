@@ -46,7 +46,7 @@ const faqItems: { q: string; a: string }[] = [
     a: "No. We also support established SMEs that need to update their agreements, restructure ownership, or prepare for investment.",
   },
   {
-    q: "Why do businesses choose Brookstone Legal?",
+    q: "Why do businesses choose LegalGrid?",
     a: "Because we focus exclusively on startups and SMEs, we understand the challenges growing companies face. Our agreements are clear, practical, and tailored to your business, with fast delivery and straightforward pricing that keeps you moving.",
   },
 ];
