@@ -2,8 +2,38 @@
 
 import React, { useState } from "react";
 
+type Testimonial = { quote: string; name: string; role: string };
+
+const TESTIMONIALS: Testimonial[] = [
+  {
+    quote:
+      "LegalGrid prepared our shareholder agreement ahead of an investor meeting. Clear, precise, and delivered in just 72 hours.",
+    name: "James",
+    role: "SaaS Founder",
+  },
+  {
+    quote:
+      "As a small marketing agency, we needed client contracts that protected us. LegalGrid's agreements were clear, fair, and professional.",
+    name: "Sarah",
+    role: "Agency Director",
+  },
+  {
+    quote:
+      "We launched our e-commerce business with full GDPR compliance thanks to LegalGrid. Everything was covered — terms, policies, and data protection agreements.",
+    name: "Daniel",
+    role: "Retail Startup",
+  },
+];
+
 export default function Testimonials(): React.ReactElement {
-  const [active, setActive] = useState<"center" | "left" | "right">("center");
+  const [index, setIndex] = useState<number>(0);
+  const count = TESTIMONIALS.length;
+  const prevIndex = (index - 1 + count) % count;
+  const nextIndex = (index + 1) % count;
+
+  const center = TESTIMONIALS[index];
+  const left = TESTIMONIALS[prevIndex];
+  const right = TESTIMONIALS[nextIndex];
   return (
     <section
       className="w-full py-20 px-6 md:px-12 relative overflow-hidden min-h-[400px]"
@@ -33,62 +63,64 @@ export default function Testimonials(): React.ReactElement {
           <div className="relative px-20 py-16">
             <div className="flex justify-center items-center relative">
               {/* Center card */}
-              <div className={`transition-all duration-500 relative z-30 ${active === "center" ? "scale-100 opacity-100" : "scale-90 opacity-60"}`}>
+              <div className={`transition-all duration-500 relative z-30 scale-100 opacity-100`}>
                 <div className="max-w-lg px-8 py-0 bg-white shadow-2xl transition-all duration-700 min-h-[320px]">
                   <div className="mb-4 text-center pt-8">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <span key={i} className="text-primary inline-block mr-1 text-xl">★</span>
                     ))}
                   </div>
-                  <p className="text-lg mb-4 text-gray-800 italic text-center leading-relaxed">
-                    &quot;LegalGrid prepared our shareholder agreement ahead of an investor meeting. Clear, precise, and delivered in just 72 hours.&quot;
-                  </p>
+                  <p className="text-lg mb-4 text-gray-800 italic text-center leading-relaxed">&quot;{center.quote}&quot;</p>
                   <div className="flex items-center justify-center gap-4 pb-8">
                     <div className="text-center">
-                      <h4 className="font-semibold text-gray-900 text-lg">James</h4>
-                      <p className="text-gray-600">SaaS Founder</p>
+                      <h4 className="font-semibold text-gray-900 text-lg">{center.name}</h4>
+                      <p className="text-gray-600">{center.role}</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               {/* Right card */}
-              <div className={`transition-all duration-500 absolute right-0 z-20 ${active === "right" ? "translate-x-0 scale-100 opacity-100 z-30" : "translate-x-1/2 scale-90 opacity-60"}`}
-                   onClick={() => setActive("right")} role="button" aria-label="Show testimonial">
+              <div
+                className={`transition-all duration-500 absolute right-0 z-20 translate-x-1/2 scale-90 opacity-60 cursor-pointer hover:opacity-80`}
+                onClick={() => setIndex(nextIndex)}
+                role="button"
+                aria-label="Next testimonial"
+              >
                 <div className="max-w-lg px-8 py-0 bg-white shadow-2xl transition-all duration-700 min-h-[320px]">
                   <div className="mb-4 text-center pt-8">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <span key={i} className="text-primary inline-block mr-1 text-xl">★</span>
                     ))}
                   </div>
-                  <p className="text-lg mb-4 text-gray-800 italic text-center leading-relaxed">
-                    &quot;As a small marketing agency, we needed client contracts that protected us. LegalGrid&apos;s agreements were clear, fair, and professional.&quot;
-                  </p>
+                  <p className="text-lg mb-4 text-gray-800 italic text-center leading-relaxed">&quot;{right.quote}&quot;</p>
                   <div className="flex items-center justify-center gap-4 pb-8">
                     <div className="text-center">
-                      <h4 className="font-semibold text-gray-900 text-lg">Sarah</h4>
-                      <p className="text-gray-600">Agency Director</p>
+                      <h4 className="font-semibold text-gray-900 text-lg">{right.name}</h4>
+                      <p className="text-gray-600">{right.role}</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               {/* Left card */}
-              <div className={`transition-all duration-500 absolute left-0 z-20 ${active === "left" ? "translate-x-0 scale-100 opacity-100 z-30" : "-translate-x-1/2 scale-90 opacity-60"}`}
-                   onClick={() => setActive("left")} role="button" aria-label="Show testimonial">
+              <div
+                className={`transition-all duration-500 absolute left-0 z-20 -translate-x-1/2 scale-90 opacity-60 cursor-pointer hover:opacity-80`}
+                onClick={() => setIndex(prevIndex)}
+                role="button"
+                aria-label="Previous testimonial"
+              >
                 <div className="max-w-lg px-8 py-0 bg-white shadow-2xl transition-all duration-700 min-h-[320px]">
                   <div className="mb-4 text-center pt-8">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <span key={i} className="text-primary inline-block mr-1 text-xl">★</span>
                     ))}
                   </div>
-                  <p className="text-lg mb-4 text-gray-800 italic text-center leading-relaxed">
-                    &quot;We launched our e-commerce business with full GDPR compliance thanks to LegalGrid. Everything was covered — terms, policies, and data protection agreements.&quot;
-                  </p>
+                  <p className="text-lg mb-4 text-gray-800 italic text-center leading-relaxed">&quot;{left.quote}&quot;</p>
                   <div className="flex items-center justify-center gap-4 pb-8">
                     <div className="text-center">
-                      <h4 className="font-semibold text-gray-900 text-lg">Daniel</h4>
-                      <p className="text-gray-600">Retail Startup</p>
+                      <h4 className="font-semibold text-gray-900 text-lg">{left.name}</h4>
+                      <p className="text-gray-600">{left.role}</p>
                     </div>
                   </div>
                 </div>
