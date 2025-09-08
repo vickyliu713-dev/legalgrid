@@ -1,6 +1,6 @@
 import React from "react";
 import IncorporationHero from "@/components/IncorporationHero";
-import Services from "@/components/Services";
+import IncorporationServices from "@/components/IncorporationServices";
 import Team from "@/components/Team";
 import Industries from "@/components/Industries";
 import Testimonials from "@/components/Testimonials";
@@ -12,7 +12,7 @@ export default function IncorporationPage(): React.ReactElement {
     <main>
       <IncorporationHero />
       {/* The following sections will be customized/trimmed next as needed */}
-      <Services />
+      <IncorporationServices />
       <Team />
       <Industries />
       <Testimonials />
