@@ -34,8 +34,8 @@ export default function IncorporationHero(): React.ReactElement {
               <h3 className="text-xl font-medium mb-6 text-foreground">Incorporation Process</h3>
               <div className="space-y-6">
                 <div className="flex gap-4">
-                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary font-medium text-sm">1</span>
+                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
+                    <span className="text-primary font-medium text-xl font-[\"Comic Sans MS\",cursive]">1</span>
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground mb-1">Company Formation</h4>
@@ -43,8 +43,8 @@ export default function IncorporationHero(): React.ReactElement {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0">
-                    <span className="text-secondary font-medium text-sm">2</span>
+                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
+                    <span className="text-secondary font-medium text-xl font-[\"Comic Sans MS\",cursive]">2</span>
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground mb-1">Shareholder Setup</h4>
@@ -52,8 +52,8 @@ export default function IncorporationHero(): React.ReactElement {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="w-10 h-10 rounded-full bg-info/10 flex items-center justify-center flex-shrink-0">
-                    <span className="text-info font-medium text-sm">3</span>
+                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
+                    <span className="text-info font-medium text-xl font-[\"Comic Sans MS\",cursive]">3</span>
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground mb-1">Governance Framework</h4>
