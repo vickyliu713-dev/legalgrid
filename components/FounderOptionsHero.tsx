@@ -15,7 +15,7 @@ export default function FounderOptionsHero(): React.ReactElement {
                 Equity & Options
               </div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight text-foreground">
-                Founder &amp; Share Options
+                Founder Agreements &amp; Share Options
               </h1>
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed">
