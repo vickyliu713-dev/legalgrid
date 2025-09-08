@@ -94,60 +94,7 @@ export default function Testimonials(): React.ReactElement {
           {/* Arrows removed per request */}
         </div>
 
-        {/* Stats */}
-        <div className="relative mt-16 pt-16 border-t border-border/20">
-          <div className="max-w-7xl mx-auto">
-            <h3 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground mb-12 text-center animate-slide-in-left">
-              Your Legal Partner for Growth
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-              <div className="group text-center bg-card/50 backdrop-blur-sm border border-border/50 rounded-lg p-8 hover:bg-card/70 transition-all duration-300 animate-scale-in" style={{ animationDelay: "0ms" }}>
-                <div className="flex flex-col items-center space-y-4">
-                  <div className="p-3 bg-secondary/10 rounded-full group-hover:scale-110 transition-transform duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-building2 text-secondary"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path><path d="M10 6h4"></path><path d="M10 10h4"></path><path d="M10 14h4"></path><path d="M10 18h4"></path></svg>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="text-3xl font-bold text-foreground">150+</div>
-                    <p className="text-sm text-muted-foreground font-medium">UK startups &amp; SMEs supported</p>
-                  </div>
-                </div>
-              </div>
-              <div className="group text-center bg-card/50 backdrop-blur-sm border border-border/50 rounded-lg p-8 hover:bg-card/70 transition-all duration-300 animate-scale-in" style={{ animationDelay: "150ms" }}>
-                <div className="flex flex-col items-center space-y-4">
-                  <div className="p-3 bg-secondary/10 rounded-full group-hover:scale-110 transition-transform duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-star text-secondary"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="text-3xl font-bold text-foreground">4.9/5</div>
-                    <p className="text-sm text-muted-foreground font-medium">rating (200+ reviews)</p>
-                  </div>
-                </div>
-              </div>
-              <div className="group text-center bg-card/50 backdrop-blur-sm border border-border/50 rounded-lg p-8 hover:bg-card/70 transition-all duration-300 animate-scale-in" style={{ animationDelay: "300ms" }}>
-                <div className="flex flex-col items-center space-y-4">
-                  <div className="p-3 bg-secondary/10 rounded-full group-hover:scale-110 transition-transform duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-trophy text-secondary"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="text-3xl font-bold text-foreground">#1</div>
-                    <p className="text-sm text-muted-foreground font-medium">Rated for small business</p>
-                  </div>
-                </div>
-              </div>
-              <div className="group text-center bg-card/50 backdrop-blur-sm border border-border/50 rounded-lg p-8 hover:bg-card/70 transition-all duration-300 animate-scale-in" style={{ animationDelay: "450ms" }}>
-                <div className="flex flex-col items-center space-y-4">
-                  <div className="p-3 bg-secondary/10 rounded-full group-hover:scale-110 transition-transform duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-thumbs-up text-secondary"><path d="M7 10v12"></path><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"></path></svg>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="text-3xl font-bold text-foreground">98%</div>
-                    <p className="text-sm text-muted-foreground font-medium">client satisfaction</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        {/* Growth stats section removed per request */}
       </div>
     </section>
   );
