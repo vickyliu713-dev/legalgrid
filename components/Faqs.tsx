@@ -6,9 +6,7 @@ export default function Faqs(): React.ReactElement {
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-10">
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground">Frequently Asked Questions</h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Short answers to common questions about LegalGrid services for UK startups & SMEs.
-          </p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto"></p>
         </div>
 
         <div className="max-w-3xl mx-auto divide-y divide-border rounded-xl border border-border bg-card">
@@ -32,20 +30,24 @@ export default function Faqs(): React.ReactElement {
 
 const faqItems: { q: string; a: string }[] = [
   {
-    q: "How fast can you deliver documents?",
-    a: "Most agreements are completed in 3–5 working days. If you have an urgent deadline, tell us and we’ll prioritise where possible.",
+    q: "Why do I need a shareholder or founder agreement?",
+    a: "Without one, disagreements over equity, responsibilities, or exits often end up in costly disputes. Investors also expect these documents before putting in funds — it shows your business is structured properly.",
   },
   {
-    q: "Do you work with early-stage startups?",
-    a: "Yes. We work almost exclusively with startups and small businesses across the UK, from incorporation to investment and employment.",
+    q: "Can’t I just use a template online?",
+    a: "Templates don’t account for your company’s specific circumstances. We tailor agreements to your structure, industry, and growth plans, ensuring you’re protected where it matters.",
   },
   {
-    q: "What are your fees like?",
-    a: "We use fixed, upfront fees for each document type wherever possible so you always know what you’ll pay.",
+    q: "How quickly can you prepare incorporation and shareholder documents?",
+    a: "Most agreements are ready in 3–5 working days. If you’re raising investment or working to a tight deadline, we can often turn urgent work around faster.",
   },
   {
-    q: "Do you provide investor-ready documents?",
-    a: "Yes. Our agreements are prepared to standards expected by investors and due diligence teams.",
+    q: "Do you only work with new startups?",
+    a: "No. We also support established SMEs that need to update their agreements, restructure ownership, or prepare for investment.",
+  },
+  {
+    q: "Why do businesses choose Brookstone Legal?",
+    a: "Because we focus exclusively on startups and SMEs, we understand the challenges growing companies face. Our agreements are clear, practical, and tailored to your business, with fast delivery and straightforward pricing that keeps you moving.",
   },
 ];
 

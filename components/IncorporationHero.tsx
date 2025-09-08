@@ -22,7 +22,7 @@ export default function IncorporationHero(): React.ReactElement {
               We provide incorporation documents, shareholder contracts, partnership agreements, and joint venture arrangements for UK startups and SMEs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-primary hover:border hover:border-cosmic-accent py-2 bg-primary text-primary-foreground hover:bg-primary/90 h-12 px-6">
+              <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-white hover:border hover:border-cosmic-accent py-2 bg-primary text-white hover:bg-primary/90 h-12 px-6">
                 Get Legal Support Now
               </button>
             </div>

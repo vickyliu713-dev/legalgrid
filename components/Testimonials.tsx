@@ -7,21 +7,21 @@ type Testimonial = { quote: string; name: string; role: string };
 const TESTIMONIALS: Testimonial[] = [
   {
     quote:
-      "LegalGrid prepared our shareholder agreement ahead of an investor meeting. Clear, precise, and delivered in just 72 hours.",
-    name: "James",
-    role: "SaaS Founder",
+      "LegalGrid drafted our shareholder agreement in time for an investor pitch. It gave everyone confidence and avoided weeks of negotiation.",
+    name: "Alex",
+    role: "Fintech Founder",
   },
   {
     quote:
-      "As a small marketing agency, we needed client contracts that protected us. LegalGrid's agreements were clear, fair, and professional.",
-    name: "Sarah",
-    role: "Agency Director",
+      "As co-founders, we wanted clarity from the start. LegalGrid delivered a founder agreement that set everything out clearly. Huge relief.",
+    name: "Priya & Tom",
+    role: "Agency Owners",
   },
   {
     quote:
-      "We launched our e-commerce business with full GDPR compliance thanks to LegalGrid. Everything was covered — terms, policies, and data protection agreements.",
-    name: "Daniel",
-    role: "Retail Startup",
+      "Our joint venture agreement was thorough and easy to work with. LegalGrid understood our industry and protected us in all the right places.",
+    name: "Martin",
+    role: "Construction Director",
   },
 ];
 
@@ -48,14 +48,9 @@ export default function Testimonials(): React.ReactElement {
       </div>
 
       <div className="max-w-7xl mx-auto space-y-4 relative z-10">
-        <div className="text-center space-y-4 max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-tighter text-foreground">
-            Trusted by 200+ UK Startups &amp; SMEs
-          </h2>
-          <p className="text-muted-foreground text-lg">
-            From tech to finance, hundreds of companies trust LegalGrid to scale their
-            business.
-          </p>
+        <div className="text-center space-y-2 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-semibold tracking-tighter text-foreground">Trusted by 200+ UK Startups &amp; SMEs</h2>
+          <div className="text-primary text-xl" aria-label="5 star rating">★★★★★</div>
         </div>
 
         <div className="relative max-w-6xl mx-auto">
