@@ -1,6 +1,28 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 
 export default function Hero(): React.ReactElement {
+  const [showHero, setShowHero] = useState<boolean>(false);
+  const [showPanel, setShowPanel] = useState<boolean>(false);
+
+  useEffect(() => {
+    const reduce = typeof window !== "undefined" &&
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (reduce) {
+      setShowHero(true);
+      setShowPanel(true);
+      return;
+    }
+    // Trigger transitions on next frame
+    const raf = requestAnimationFrame(() => setShowHero(true));
+    const t = setTimeout(() => setShowPanel(true), 500);
+    return () => {
+      cancelAnimationFrame(raf);
+      clearTimeout(t);
+    };
+  }, []);
   return (
     <section className="relative w-full py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-hidden bg-background">
       <div className="absolute inset-0 cosmic-grid opacity-30"></div>
@@ -8,7 +30,12 @@ export default function Hero(): React.ReactElement {
         <div className="w-full h-full opacity-20 bg-gradient-to-r from-primary via-info to-secondary blur-[150px]"></div>
       </div>
 
-      <div className="relative z-10 max-w-4xl text-center space-y-6 animate-fade-in" style={{ animationDuration: "500ms" }}>
+      <div
+        className={
+          "relative z-10 max-w-4xl text-center space-y-6 transition-all duration-700 transform " +
+          (showHero ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4")
+        }
+      >
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tighter text-balance text-foreground">
           Legal Services for <span className="text-foreground">UK Startups &amp; Small Businesses</span>
         </h1>
@@ -22,7 +49,12 @@ export default function Hero(): React.ReactElement {
         </div>
       </div>
 
-      <div className="w-full max-w-7xl mt-12 z-10 animate-fade-in" style={{ animationDelay: "750ms", animationDuration: "750ms" }}>
+      <div
+        className={
+          "w-full max-w-7xl mt-12 z-10 transition-all duration-1000 transform " +
+          (showPanel ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4")
+        }
+      >
         <div className="cosmic-glow relative rounded-xl overflow-hidden border border-border backdrop-blur-sm bg-card shadow-lg">
           <div className="bg-card backdrop-blur-md w-full">
             <div className="flex items-center justify-between p-4 border-b border-border">
