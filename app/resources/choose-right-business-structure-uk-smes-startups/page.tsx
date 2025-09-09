@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function ArticleBusinessStructure(): React.ReactElement {
   return (
     <main className="w-full py-16 px-6 md:px-12">
-      <article className="max-w-3xl mx-auto prose prose-slate dark:prose-invert prose-headings:tracking-tight">
+      <article className="max-w-3xl mx-auto prose prose-slate">
         <h1 className="!mb-2">How to Choose the Right Business Structure (for UK SMEs / Startups)</h1>
         <p>
           If you’re starting a business in the UK, one of the earliest (and biggest) decisions is choosing your business structure. It affects <strong>tax, liability, fundraising, and even credibility with clients and investors</strong>. Get it right, and you’ve got solid foundations. Get it wrong, and you could face unnecessary tax bills or personal risk.
