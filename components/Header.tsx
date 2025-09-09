@@ -31,7 +31,7 @@ export function Header(): React.ReactElement {
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg>
                 </button>
 
-                <div role="group" dir="ltr" className={`absolute top-full left-0 mt-2 bg-background border border-border rounded-xl shadow-lg p-2 w-64 ${servicesOpen ? "flex" : "hidden"} flex-col`} tabIndex={0}>
+                <div role="group" dir="ltr" className={`absolute top-full left-0 mt-2 bg-background border border-border rounded-xl shadow-lg p-2 w-72 ${servicesOpen ? "flex" : "hidden"} flex-col`} tabIndex={0}>
                   <Link href="/incorporation" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-building inline-block mr-1.5"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg>
                     Company Incorporation
@@ -39,6 +39,30 @@ export function Header(): React.ReactElement {
                   <Link href="/founder-options" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-star inline-block mr-1.5"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
                     Share Options
+                  </Link>
+                  <Link href="/investment" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
+                    <span className="inline-block mr-1.5">📈</span>
+                    Investment
+                  </Link>
+                  <Link href="/employment" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
+                    <span className="inline-block mr-1.5">👥</span>
+                    Employment
+                  </Link>
+                  <Link href="/contracts" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
+                    <span className="inline-block mr-1.5">📝</span>
+                    Contracts
+                  </Link>
+                  <Link href="/ip" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
+                    <span className="inline-block mr-1.5">©️</span>
+                    IP
+                  </Link>
+                  <Link href="/compliance" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
+                    <span className="inline-block mr-1.5">🛡️</span>
+                    Compliance
+                  </Link>
+                  <Link href="/finances" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
+                    <span className="inline-block mr-1.5">💷</span>
+                    Finance
                   </Link>
                 </div>
                 {/* Outside-of-dropdown controls */}
@@ -56,15 +80,7 @@ export function Header(): React.ReactElement {
             </div>
           </nav>
 
-          <div className="hidden md:flex items-center gap-4">
-            <div className="flex items-center gap-2 rounded-full px-3 py-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-moon text-[#737373]"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>
-              <button type="button" role="switch" aria-checked="true" data-state="checked" value="on" className="peer inline-flex h-5 w-9 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50 data-[state=unchecked]:bg-[#0d2840]/20 data-[state=checked]:bg-[#0d2840]">
-                <span data-state="checked" className="pointer-events-none block h-4 w-4 rounded-full bg-white shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-4 data-[state=unchecked]:translate-x-0"></span>
-              </button>
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-sun text-primary"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg>
-            </div>
-          </div>
+          
         </header>
       </div>
     </div>
