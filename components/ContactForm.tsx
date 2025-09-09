@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import AmbientShapes from "./AmbientShapes";
 import { useRouter } from "next/navigation";
 
 export default function ContactForm(): React.ReactElement {
@@ -40,7 +41,8 @@ export default function ContactForm(): React.ReactElement {
     }
   }
   return (
-    <section id="contact" className="w-full py-16 px-6 md:px-12 bg-card">
+    <section id="contact" className="relative w-full py-16 px-6 md:px-12 bg-card overflow-hidden">
+      <AmbientShapes variant="contact" />
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground">Contact Us Now</h2>

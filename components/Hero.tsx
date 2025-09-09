@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import AmbientShapes from "./AmbientShapes";
 
 export default function Hero(): React.ReactElement {
   const [showHero, setShowHero] = useState<boolean>(false);
@@ -25,6 +26,7 @@ export default function Hero(): React.ReactElement {
   }, []);
   return (
     <section className="relative w-full py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-hidden bg-background">
+      <AmbientShapes variant="hero" />
       <div className="absolute inset-0 cosmic-grid opacity-30"></div>
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full">
         <div className="w-full h-full opacity-20 bg-gradient-to-r from-primary via-info to-secondary blur-[150px]"></div>
