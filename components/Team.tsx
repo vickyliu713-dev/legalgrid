@@ -1,10 +1,8 @@
 import React from "react";
-import AmbientShapes from "./AmbientShapes";
 
 export default function Team(): React.ReactElement {
   return (
     <section className="relative w-full py-20 px-6 md:px-12 bg-gradient-to-b from-background to-muted/20 overflow-hidden">
-      <AmbientShapes variant="team" />
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground mb-6 animate-fade-in mx-auto">Our Team, Trusted by UK SMEs &amp; Startups</h2>

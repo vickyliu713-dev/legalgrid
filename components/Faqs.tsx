@@ -1,10 +1,8 @@
 import React from "react";
-import AmbientShapes from "./AmbientShapes";
 
 export default function Faqs(): React.ReactElement {
   return (
     <section className="relative w-full py-16 px-6 md:px-12 bg-background overflow-hidden">
-      <AmbientShapes variant="faqs" />
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-10">
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground mx-auto">Frequently Asked Questions</h2>
