@@ -5,7 +5,7 @@ export default function Faqs(): React.ReactElement {
     <section className="w-full py-16 px-6 md:px-12 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-10">
-          <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground">Frequently Asked Questions</h2>
+          <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground mx-auto">Frequently Asked Questions</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto"></p>
         </div>
 

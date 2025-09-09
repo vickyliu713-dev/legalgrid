@@ -5,7 +5,7 @@ export default function Industries(): React.ReactElement {
     <section className="w-full py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-12">
-          <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground">Industries We Work With</h2>
+          <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground mx-auto">Industries We Work With</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">We support startups and SMEs across a wide range of sectors in the UK.</p>
         </div>
         <div className="max-w-3xl mx-auto">
