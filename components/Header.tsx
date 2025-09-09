@@ -41,27 +41,27 @@ export function Header(): React.ReactElement {
                     Share Options
                   </Link>
                   <Link href="/investment" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
-                    <span className="inline-block mr-1.5">📈</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="inline-block mr-1.5"><path d="M22 7l-8.5 8.5-5-5L2 17"></path><path d="M16 7h6v6"></path></svg>
                     Investment
                   </Link>
                   <Link href="/employment" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
-                    <span className="inline-block mr-1.5">👥</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="inline-block mr-1.5"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"></path></svg>
                     Employment
                   </Link>
                   <Link href="/contracts" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
-                    <span className="inline-block mr-1.5">📝</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="inline-block mr-1.5"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
                     Contracts
                   </Link>
                   <Link href="/ip" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
-                    <span className="inline-block mr-1.5">©️</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="inline-block mr-1.5"><circle cx="12" cy="12" r="9"></circle><path d="M15 9.5a4 4 0 1 0 0 5"></path></svg>
                     IP
                   </Link>
                   <Link href="/compliance" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
-                    <span className="inline-block mr-1.5">🛡️</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="inline-block mr-1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path></svg>
                     Compliance
                   </Link>
                   <Link href="/finances" onClick={() => setServicesOpen(false)} className="inline-flex items-center justify-start text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent h-10 px-3 rounded-lg transition-colors relative text-[#737373] hover:text-foreground hover:bg-muted">
-                    <span className="inline-block mr-1.5">💷</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="inline-block mr-1.5"><path d="M6 12h6a4 4 0 1 0 0-8H9"></path><path d="M6 20h8"></path><path d="M6 16h10"></path></svg>
                     Finance
                   </Link>
                 </div>
