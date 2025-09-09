@@ -3,6 +3,12 @@ import Link from "next/link";
 
 export default function ResourcesPage(): React.ReactElement {
   const posts: { title: string; excerpt: string; href: string }[] = [
+    {
+      title: "How to Choose the Right Business Structure (for UK SMEs / Startups)",
+      excerpt:
+        "Sole trader vs limited company vs partnership/LLP — tax, liability, growth, and admin compared.",
+      href: "/resources/choose-right-business-structure-uk-smes-startups",
+    },
     { title: "Do I need a shareholder agreement?", excerpt: "Why early-stage startups should formalise founder relationships.", href: "/resources/do-i-need-a-shareholder-agreement" },
     { title: "What is an EMI option scheme?", excerpt: "A simple overview of EMI options and eligibility.", href: "/resources/what-is-emi-option-scheme" },
     { title: "Convertible notes vs SAFEs vs ASAs", excerpt: "Choosing the right instrument for early fundraising.", href: "/resources/convertible-notes-vs-safes-vs-asas" },
