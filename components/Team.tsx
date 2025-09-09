@@ -5,7 +5,7 @@ export default function Team(): React.ReactElement {
     <section className="relative w-full py-20 px-6 md:px-12 bg-gradient-to-b from-background to-muted/20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-6 animate-fade-in">Why UK Startups &amp; SMEs Trust Us</h2>
+          <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground mb-6 animate-fade-in">Our Team, Trusted by UK SMEs &amp; Startups</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: "200ms" }}>
             Behind LegalGrid is a team of legal specialists with experience supporting hundreds of startups and SMEs. We combine strong academic backgrounds with practical business knowledge.
           </p>
