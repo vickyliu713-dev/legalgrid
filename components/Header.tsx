@@ -8,7 +8,7 @@ export function Header(): React.ReactElement {
   const [servicesOpen, setServicesOpen] = useState(false);
   return (
     <div className="sticky top-0 z-50 bg-background border-b border-border">
-      <div className="pt-8 px-4">
+      <div className="pt-0 px-0 md:pt-8 md:px-4">
         <header className="w-full max-w-7xl mx-auto py-3 px-6 md:px-8 flex items-center justify-between">
           <div className="p-3">
             <div className="flex items-center gap-2">
