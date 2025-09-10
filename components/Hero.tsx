@@ -24,10 +24,14 @@ export default function Hero(): React.ReactElement {
     };
   }, []);
   return (
-    <section className="relative w-full py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-hidden bg-background">
+    <section className="relative w-full py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-visible bg-background">
       <div className="absolute inset-0 cosmic-grid opacity-30"></div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full">
-        <div className="w-full h-full opacity-30 bg-gradient-to-r from-[#3554e8] via-[#22d3c5] to-[#8bcc19] blur-[160px]"></div>
+      <div className="absolute left-1/2 -translate-x-1/2 top-[4%] md:top-[10%] lg:top-[14%] w-[900px] h-[900px] md:w-[1350px] md:h-[1350px] lg:w-[1800px] lg:h-[1800px] rounded-full pointer-events-none">
+        <div className="w-full h-full bg-gradient-to-r from-[#3554e8] via-[#22d3c5] to-[#8bcc19] opacity-20 md:opacity-25 lg:opacity-30 blur-[140px] md:blur-[200px] lg:blur-[260px]"></div>
+      </div>
+      {/* Outer tail tuned to fade just before Contact section */}
+      <div className="hidden md:block absolute left-1/2 -translate-x-1/2 top-[16%] lg:top-[22%] w-[2300px] h-[2300px] lg:w-[3800px] lg:h-[3800px] rounded-full pointer-events-none">
+        <div className="w-full h-full bg-gradient-to-r from-[#3554e8] via-[#22d3c5] to-[#8bcc19] opacity-15 lg:opacity-18 blur-[340px] lg:blur-[560px]"></div>
       </div>
 
       <div

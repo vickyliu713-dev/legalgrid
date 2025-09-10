@@ -40,7 +40,7 @@ export default function ContactForm(): React.ReactElement {
     }
   }
   return (
-    <section id="contact" className="relative w-full py-16 px-6 md:px-12 bg-card overflow-hidden">
+    <section id="contact" className="relative w-full py-16 px-6 md:px-12 overflow-hidden bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 mb-12">
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground">Contact Us Now</h2>

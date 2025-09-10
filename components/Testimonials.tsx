@@ -36,17 +36,7 @@ export default function Testimonials({ testimonials }: { testimonials?: Testimon
   const left = data[prevIndex];
   const right = data[nextIndex];
   return (
-    <section
-      className="w-full py-20 px-6 md:px-12 relative overflow-hidden min-h-[400px]"
-      style={{
-        background:
-          "linear-gradient(to bottom, hsl(var(--background)) 0%, hsl(var(--background)) 70%, rgba(255, 255, 255, 0.2) 90%, rgba(255, 255, 255, 0.4) 100%)",
-      }}
-    >
-      <div className="absolute inset-0 cosmic-grid opacity-30"></div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full">
-        <div className="w-full h-full opacity-20 bg-gradient-to-r from-primary via-info to-secondary blur-[150px]"></div>
-      </div>
+    <section className="w-full py-20 px-6 md:px-12 relative overflow-hidden min-h-[400px]">
 
       <div className="max-w-7xl mx-auto space-y-4 relative z-10">
         <div className="text-center space-y-2 max-w-3xl mx-auto">
