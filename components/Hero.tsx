@@ -26,6 +26,10 @@ export default function Hero(): React.ReactElement {
   return (
     <section className="relative w-full py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-visible bg-background">
       <div className="absolute inset-0 cosmic-grid opacity-30"></div>
+      {/* Mobile-only extended tail to fade just before Contact */}
+      <div className="md:hidden absolute left-1/2 -translate-x-1/2 top-[14%] w-[2200px] h-[2200px] rounded-full pointer-events-none">
+        <div className="w-full h-full bg-gradient-to-r from-[#3554e8] via-[#22d3c5] to-[#8bcc19] opacity-25 blur-[260px]"></div>
+      </div>
       <div className="absolute left-1/2 -translate-x-1/2 top-[4%] md:top-[10%] lg:top-[14%] w-[900px] h-[900px] md:w-[1350px] md:h-[1350px] lg:w-[1800px] lg:h-[1800px] rounded-full pointer-events-none">
         <div className="w-full h-full bg-gradient-to-r from-[#3554e8] via-[#22d3c5] to-[#8bcc19] opacity-20 md:opacity-25 lg:opacity-30 blur-[140px] md:blur-[200px] lg:blur-[260px]"></div>
       </div>
@@ -53,9 +57,10 @@ export default function Hero(): React.ReactElement {
         </div>
       </div>
 
+      {/* Hide the pipeline graphic on mobile for a cleaner hero */}
       <div
         className={
-          "w-full max-w-7xl mt-12 z-10 transition-all duration-1000 transform " +
+          "hidden md:block w-full max-w-7xl mt-12 z-10 transition-all duration-1000 transform " +
           (showPanel ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4")
         }
       >

@@ -1,10 +1,26 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 
 export default function Services(): React.ReactElement {
+  const [showHeader, setShowHeader] = useState<boolean>(false);
+
+  useEffect(() => {
+    const reduce = typeof window !== "undefined" &&
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce) {
+      setShowHeader(true);
+      return;
+    }
+    const t = setTimeout(() => setShowHeader(true), 700); // after hero finishes
+    return () => clearTimeout(t);
+  }, []);
+
   return (
     <section id="features" className="relative w-full py-12 md:py-16 px-6 md:px-12 overflow-hidden">
       <div className="max-w-7xl mx-auto space-y-12">
-        <div className="text-center space-y-3 max-w-3xl mx-auto">
+        <div className={"text-center space-y-3 max-w-3xl mx-auto transition-all duration-700 transform " + (showHeader ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4") }>
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter">
             Specialist Legal Support for SMEs &amp; Startups
           </h2>
