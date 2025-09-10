@@ -15,31 +15,31 @@ export default function FinancesServices(): React.ReactElement {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">R&amp;D Tax Credit Documentation Support</h3>
             <p className="text-sm text-muted-foreground">prepare the legal and technical records required for HMRC claims</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Loan &amp; Credit Facility Agreements</h3>
             <p className="text-sm text-muted-foreground">clear, enforceable terms for borrowing from banks or private lenders</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Corporate Governance Documents</h3>
             <p className="text-sm text-muted-foreground">board minutes, resolutions, and registers to stay compliant</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Risk &amp; Compliance Frameworks</h3>
             <p className="text-sm text-muted-foreground">tailored policies to manage operational and financial risk</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Grant &amp; Funding Agreement Reviews</h3>
             <p className="text-sm text-muted-foreground">ensure obligations are clear before accepting government or private grants</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Growth Share Arrangements</h3>
             <p className="text-sm text-muted-foreground">alternative incentive structures for employees and advisors</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Due Diligence Document Packs</h3>
             <p className="text-sm text-muted-foreground">prepare your business for investors, lenders, or potential buyers</p>
           </div>

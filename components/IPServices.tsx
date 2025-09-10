@@ -15,27 +15,27 @@ export default function IPServices(): React.ReactElement {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">IP Assignment Agreements</h3>
             <p className="text-sm text-muted-foreground">ensure all intellectual property created belongs to your business</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Licensing Agreements</h3>
             <p className="text-sm text-muted-foreground">generate revenue while protecting your rights when others use your IP</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Confidentiality &amp; Non-Disclosure Agreements</h3>
             <p className="text-sm text-muted-foreground">safeguard sensitive information in discussions and partnerships</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Trademark Support &amp; Strategy</h3>
             <p className="text-sm text-muted-foreground">protect your brand identity and avoid disputes</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Software &amp; Technology Agreements</h3>
             <p className="text-sm text-muted-foreground">cover IP ownership in software development or SaaS products</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Investor-Ready IP Documentation</h3>
             <p className="text-sm text-muted-foreground">agreements designed to meet due diligence standards and reassure funders</p>
           </div>

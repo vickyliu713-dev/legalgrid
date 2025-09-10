@@ -15,35 +15,35 @@ export default function IncorporationServices(): React.ReactElement {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Company Incorporation Documents</h3>
             <p className="text-sm text-muted-foreground">register your UK limited company correctly from the start</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Shareholder Agreements</h3>
             <p className="text-sm text-muted-foreground">define equity, rights, and exit terms between founders and investors</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Partnership Agreements</h3>
             <p className="text-sm text-muted-foreground">set out profit-sharing, responsibilities, and exits</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Joint Venture Agreements</h3>
             <p className="text-sm text-muted-foreground">protect your interests when collaborating with another business</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Articles of Association</h3>
             <p className="text-sm text-muted-foreground">tailor your company rules to fit your business needs</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Founder Agreements</h3>
             <p className="text-sm text-muted-foreground">clarify roles and commitments early between co-founders</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Board Resolutions &amp; Minutes</h3>
             <p className="text-sm text-muted-foreground">keep company decisions documented and compliant</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Business Name &amp; IP Assignment Agreements</h3>
             <p className="text-sm text-muted-foreground">protect your intellectual property from day one</p>
           </div>

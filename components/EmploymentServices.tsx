@@ -15,35 +15,35 @@ export default function EmploymentServices(): React.ReactElement {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Director Service Agreements</h3>
             <p className="text-sm text-muted-foreground">define responsibilities, remuneration, and protections for company directors</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Employment Contracts</h3>
             <p className="text-sm text-muted-foreground">tailored for permanent, fixed-term, or part-time staff</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Freelancer &amp; Consultant Agreements</h3>
             <p className="text-sm text-muted-foreground">protect your business when working with contractors</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Staff Handbooks</h3>
             <p className="text-sm text-muted-foreground">cover workplace rules and procedures clearly for all employees</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">HR Policies</h3>
             <p className="text-sm text-muted-foreground">disciplinary, grievance, health &amp; safety, equal opportunities, and more</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Non-Compete &amp; Restrictive Covenants</h3>
             <p className="text-sm text-muted-foreground">protect your business after staff move on</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Confidentiality Agreements</h3>
             <p className="text-sm text-muted-foreground">safeguard sensitive business information</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Contractor IR35 Compliance Documents</h3>
             <p className="text-sm text-muted-foreground">ensure compliance when engaging contractors</p>
           </div>

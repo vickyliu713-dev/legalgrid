@@ -15,35 +15,35 @@ export default function ComplianceServices(): React.ReactElement {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Website Terms &amp; Conditions</h3>
             <p className="text-sm text-muted-foreground">set clear rules for users and protect your business from liability</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Privacy Policies</h3>
             <p className="text-sm text-muted-foreground">GDPR-compliant documents tailored to your data processing activities</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Cookie Policies</h3>
             <p className="text-sm text-muted-foreground">required for websites using cookies or tracking tools</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Refund &amp; Returns Policies</h3>
             <p className="text-sm text-muted-foreground">meet consumer law requirements and protect your e-commerce business</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Data Processing Agreements</h3>
             <p className="text-sm text-muted-foreground">define responsibilities when handling customer data with third parties</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Acceptable Use Policies</h3>
             <p className="text-sm text-muted-foreground">outline rules for users of your services or platform</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">GDPR Compliance Frameworks</h3>
             <p className="text-sm text-muted-foreground">policies and procedures to keep your business compliant</p>
           </div>
-          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-yellow-50 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
+          <div className="rounded-xl border border-border/20 bg-gradient-to-br from-card to-secondary/10 p-6 hover:border-secondary/40 transition-all duration-300 shadow-sm">
             <h3 className="text-lg font-medium mb-2">Intellectual Property Clauses</h3>
             <p className="text-sm text-muted-foreground">protect ownership of digital content and software</p>
           </div>
