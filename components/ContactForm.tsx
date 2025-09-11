@@ -32,7 +32,7 @@ export default function ContactForm(): React.ReactElement {
         body: JSON.stringify(formData),
       });
       if (!res.ok) throw new Error("Failed to submit");
-      router.push("/contact/submission-success");
+      router.push("/submission-success");
     } catch (err) {
       console.error(err);
       setIsSubmitting(false);
