@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script";
 
 export const metadata = {
   title: "Submission Success",
@@ -8,6 +9,10 @@ export const metadata = {
 export default function SubmissionSuccessPage() {
   return (
     <main className="w-full py-24 px-6 md:px-12">
+      {/* Event snippet for Submit lead form (1) conversion page */}
+      <Script id="conversion-submit-lead-form" strategy="afterInteractive">
+        {`gtag('event', 'conversion', {'send_to': 'AW-17550633653/iSMkCOn7vJ0bELXV5bBB'});`}
+      </Script>
       <div className="max-w-3xl mx-auto text-center space-y-4">
         <h1 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground">Thanks for contacting LegalGrid</h1>
         <p className="text-lg text-muted-foreground">
